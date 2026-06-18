@@ -17,17 +17,17 @@ router.get("/", getAllUsers);
 router.get("/:id", getUserById);
 
 router.post(
-  "/create",
+  "/",
   validateUser,
   createUser
 );
 
 router.put(
-  "/update/:id",
+  "/:id",
   validateUser,
   updateUser
 );
 
-router.delete("/delete/:id", deleteUser);
+router.delete("/:id", deleteUser);
 
 export default router;

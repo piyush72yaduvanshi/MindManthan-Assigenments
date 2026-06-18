@@ -24,18 +24,17 @@
           "raw": ""
         },
         "url": {
-          "raw": "{{BASE_URL}}/delete/:id",
+          "raw": "{{BASE_URL}}/:id",
           "host": [
             "{{BASE_URL}}"
           ],
           "path": [
-            "delete",
             ":id"
           ],
           "variable": [
             {
               "key": "id",
-              "value": "1"
+              "value": ""
             }
           ]
         }
@@ -60,12 +59,11 @@
           "raw": "{\n    \"name\":\"xyz\",\n    \"email\":\"example@gamil.com\"\n}"
         },
         "url": {
-          "raw": "{{BASE_URL}}/update/:id",
+          "raw": "{{BASE_URL}}/:id",
           "host": [
             "{{BASE_URL}}"
           ],
           "path": [
-            "update",
             ":id"
           ],
           "variable": [
@@ -93,12 +91,12 @@
           }
         },
         "url": {
-          "raw": "{{BASE_URL}}/create",
+          "raw": "{{BASE_URL}}/",
           "host": [
             "{{BASE_URL}}"
           ],
           "path": [
-            "create"
+            ""
           ]
         }
       },

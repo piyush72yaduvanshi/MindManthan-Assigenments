@@ -73,7 +73,7 @@ The API will run on `http://localhost:8080` by default.
 
 ### Create a user
 
-- `POST /api/user/create`
+- `POST /api/user/`
 - Request body:
   - `name` (string, required)
   - `email` (string, required, valid email)
@@ -92,7 +92,7 @@ Example request:
 
 ### Update a user
 
-- `PUT /api/user/update/:id`
+- `PUT /api/user/:id`
 - Request body:
   - `name` (string, required)
   - `email` (string, required, valid email)
@@ -102,7 +102,7 @@ Example request:
 
 ### Delete a user
 
-- `DELETE /api/user/delete/:id`
+- `DELETE /api/user/:id`
 - Response: `200` with deleted user
 - If user not found: `404`
 
